@@ -246,6 +246,9 @@ def crystal_ball():
         
         )
 
+st.title(" **:rainbow[ Fortune Teller! ]** ")
 
+name = st.text_input("Enter your name to see your future unfold before you...")
 
-st.write(crystal_ball())
+if name.strip():
+    st.write(crystal_ball())
